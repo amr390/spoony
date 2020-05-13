@@ -1,0 +1,151 @@
+# French translations for pelican-bootstrap3
+# Copyright (C) 2017 Marc-Antoine Parent
+# This file is distributed under the same license as pelican-bootstrap3
+# Marc-Antoine Parent <maparent@conversence.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-10-06 15:03+0200\n"
+"PO-Revision-Date: 2017-01-08 14:36+0100\n"
+"Last-Translator: Marc-Antoine Parent <maparent@conversence.com>\n"
+"Language-Team: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: templates/archives.html:2 templates/archives.html:7 templates/base.html:150
+msgid "Archives"
+msgstr "Archivos"
+
+#: templates/archives.html:14
+msgid "Archives for"
+msgstr "Archivos para"
+
+#: templates/article.html:77
+msgid "Permalink to"
+msgstr "Permalink a"
+
+#: templates/article_list.html:14
+msgid "more"
+msgstr "más"
+
+#: templates/author.html:3
+msgid "Articles by"
+msgstr "Artículos de"
+
+#: templates/author.html:9 templates/authors.html:3 templates/authors.html:9
+msgid "Authors"
+msgstr "Autores"
+
+#: templates/authors.html:15
+msgid "Authors on"
+msgstr "Autores de"
+
+#: templates/categories.html:2 templates/categories.html:8
+#: templates/category.html:11 templates/includes/sidebar.html:45
+msgid "Categories"
+msgstr "categorías"
+
+#: templates/categories.html:15
+msgid "All Categories for"
+msgstr "Todas las categorías para"
+
+#: templates/search.html:4
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/tags.html:16
+msgid "Tags for"
+msgstr "Etiquetas para"
+
+#: templates/includes/aboutme.html:8
+msgid "About"
+msgstr "Acerca de"
+
+#: templates/includes/article_info.html:8
+msgid "Modified"
+msgstr "Modificado"
+
+#: templates/includes/article_info.html:17 templates/includes/sidebar.html:80
+msgid "Series"
+msgstr "Series"
+
+#: templates/includes/article_info.html:24
+msgid "By"
+msgstr "Por"
+
+#: templates/includes/article_info.html:30
+msgid "Category"
+msgstr "Categoría"
+
+#: templates/includes/cc-license.html:62
+msgid "Content"
+msgstr "Contenido"
+
+#: templates/includes/cc-license.html:64
+msgid "licensed under a"
+msgstr "Bajo licencia "
+
+#: templates/includes/cc-license.html:64
+msgid "except where indicated otherwise"
+msgstr "excepto contraindicación"
+
+#: templates/includes/comment_count.html:1
+msgid "View comments"
+msgstr "Ver comentarios"
+
+#: templates/includes/comments.html:4
+msgid "Comments"
+msgstr "Comentarios"
+
+#: templates/includes/footer.html:11
+msgid "Powered by"
+msgstr "Powered by"
+
+#: templates/includes/footer.html:21
+msgid "Back to top"
+msgstr "Volver al inicio"
+
+#: templates/includes/links.html:2
+msgid "Links"
+msgstr "Enlaces"
+
+#: templates/includes/pagination.html:5 templates/includes/pagination.html:7
+msgid "Newer"
+msgstr "Nuevos"
+
+#: templates/includes/pagination.html:11 templates/includes/pagination.html:13
+msgid "Older"
+msgstr "Anteriores"
+
+#: templates/includes/sidebar.html:8
+msgid "Social"
+msgstr "Social"
+
+#: templates/includes/sidebar.html:31
+msgid "Recent Posts"
+msgstr "Posts recientes"
+
+#: templates/includes/sidebar.html:64 templates/includes/taglist.html:2
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: templates/includes/sidebar.html:84
+msgid "Previous article"
+msgstr "Artículo anterior"
+
+#: templates/includes/sidebar.html:90
+msgid "Next article"
+msgstr "Nuevo Artículo"
+
+#: templates/includes/translations.html:3
+msgid "Lang"
+msgstr "Idioma"
+
+#~ msgid "Related Posts:"
+#~ msgstr "Articles connexes"
+

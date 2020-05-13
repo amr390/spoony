@@ -1,4 +1,4 @@
-Title: Mi primer post
+Title: My first post
 Date: 2020-05-09 09:33
 Slug: my-first-post
 Lang: en

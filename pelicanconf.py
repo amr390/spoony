@@ -50,9 +50,9 @@ EXTRA_PATH_METADATA = {
 # Post and Pages path
 ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'articles/{slug}.html'
-ARTICLE_LANG_URL = 'articles/{slug}-{lang}.html'
+ARTICLE_LANG_URL = 'articles/{lang}/{slug}.html'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
-ARTICLE_LANG_SAVE_AS = 'articles/{slug}-{lang}.html'
+ARTICLE_LANG_SAVE_AS = 'articles/{lang}/{slug}.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
@@ -73,7 +73,7 @@ AUTHORS_SAVE_AS = 'authors.html'
 
 # Plugins
 PLUGIN_PATHS = [
-    'pelican-plugins'
+    'plugins'
 ]
 
 PLUGINS = [
@@ -101,7 +101,8 @@ SITEMAP = {
 I18N_SUBSITES = {
     'es': {
         'SITENAME': 'Tormentos Full Stack',
-        'LOCALE': 'es_ES'
+        'LOCALE': 'es_ES',
+#        'THEME': 'theme_en'
     },
 }
 
@@ -133,7 +134,7 @@ JINJA_ENVIRONMENT = {
     'extensions' : ['jinja2.ext.i18n']
 }
 
-THEME = 'attila'
+THEME = 'theme'
 # Theme specific settings
 
 # This is deprecated. Will be removed in future releases.
