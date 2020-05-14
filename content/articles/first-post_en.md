@@ -4,7 +4,7 @@ Slug: my-first-post
 Lang: en
 Category: General
 Tags: Pelican, Blog, Blogging, Python, Vim, Nginx
-og_image: assets/images/2.png
+og_image: /assets/images/2.png
 
 # Blogging my notes with Pelican
 In this post I explain how I decided to go with pelican python static generator to

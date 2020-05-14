@@ -136,7 +136,7 @@ JINJA_ENVIRONMENT = {
 
 THEME = 'theme'
 # Theme specific settings
-
+BOOTSTRAP_THEME = 'superhero'
 # This is deprecated. Will be removed in future releases.
 # Work around will be use HOME_COVER and use cover in individual articles.
 # HEADER_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
@@ -159,6 +159,10 @@ THEME = 'theme'
 # To set background image for the home page.
 
 HEADER_COVER = 'assets/images/bombilla.jpg'
+BANNER = 'assets/images/bombilla.jpg'
+BANNER_SUBTITLES = 'subititle'
+BANNER_ALL_PAGES = True
+
 HEADER_COVERS_BY_TAG = {
     'cupcake': 'assets/images/rainbow_cupcake_cover.png',
     'general': 'https://casper.ghost.org/v1.0.0/images/writing.jpg'

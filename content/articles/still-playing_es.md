@@ -5,7 +5,7 @@ Lang: es
 Status: draft
 Category: Blogging
 Tags: Pelican, Blog, Blogging, Python, Vim, Nginx
-og_image: /assets/images/2.png
+og_image: assets/images/2.png
 
 
 # A vueltas con Pelican
