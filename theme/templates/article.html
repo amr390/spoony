@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ article.title }}{% endblock %}
+{% block html_lang %}{{ article.lang }}{% endblock %}
 
 {# <!-- Choosing cover image --> #}
 {% if article.cover %}
@@ -102,6 +103,9 @@
             <div class="post-cover cover" style="background-image: url('{{ selected_cover }}')">
         {% elif selected_color %}
             <div class="post-cover cover" style="background-color: {{ selected_color }}">
+        {% endif %}
+        {% if article.lang %}
+                <a href="{{ article.url }}">{{ article.lang }}</a>
         {% endif %}
       </div>
     </header>

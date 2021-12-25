@@ -50,9 +50,9 @@ EXTRA_PATH_METADATA = {
 # Post and Pages path
 ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'articles/{slug}.html'
-ARTICLE_LANG_URL = 'articles/{lang}/{slug}.html'
+ARTICLE_LANG_URL = 'articles/{slug}-{lang}.html'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
-ARTICLE_LANG_SAVE_AS = 'articles/{lang}/{slug}.html'
+ARTICLE_LANG_SAVE_AS = 'articles/{slug}-{lang}.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
